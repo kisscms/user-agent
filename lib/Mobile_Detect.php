@@ -9,6 +9,8 @@
  *  EDITED: Added iPad support (Makis Tracend)
  */
 
+if ( class_exists("Mobile_Detect") ) return;
+
 class Mobile_Detect {
     
     protected $accept;
